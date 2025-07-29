@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Khoa Nguyen | Profile Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f6f6f6; margin: 0; }
+    .container { max-width: 700px; margin: 40px auto; background: #fff; padding: 32px; border-radius: 12px; box-shadow: 0 0 16px rgba(0,0,0,0.10);}
+    .avatar { width: 120px; border-radius: 50%; display: block; margin: 0 auto; }
+    h1 { text-align: center; margin-top: 16px;}
+    .bio { text-align: center; color: #555; margin-bottom: 24px;}
+    .social-links { text-align: center; margin-bottom: 24px;}
+    .social-links a { margin: 0 8px; text-decoration: none; color: #0077b5; }
+    .info { margin-bottom: 24px; }
+    .info strong { display: inline-block; width: 100px; }
+    .posts { margin-top: 32px;}
+    .posts h2 { margin-bottom: 16px;}
+    .posts ul { list-style: none; padding: 0;}
+    .posts li { background: #f0f0f0; margin-bottom: 12px; padding: 12px; border-radius: 8px;}
+    @media (max-width: 600px) {
+      .container { padding: 16px;}
+      .avatar { width: 80px;}
+      .info strong { width: 80px;}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="avatar.jpg" alt="Khoa Nguyen Profile Avatar" class="avatar">
+    <h1>Khoa Nguyen</h1>
+    <p class="bio">Software developer, open-source enthusiast, and lifelong learner. Welcome to my blog!</p>
+    <div class="social-links">
+      <a href="https://github.com/khoa-nguyen08" target="_blank">GitHub</a>
+      <a href="mailto:khoa-nguyen08@email.com">Email</a>
+    </div>
+    <div class="info">
+      <p><strong>Location:</strong> Vietnam</p>
+      <p><strong>Skills:</strong> JavaScript, Python, Web Development</p>
+      <p><strong>Interests:</strong> Coding, Blogging, Open Source</p>
+    </div>
+    <div class="posts">
+      <h2>Recent Posts</h2>
+      <ul>
+        <li><a href="#">Getting Started with Open Source</a></li>
+        <li><a href="#">My Favorite JavaScript Tools</a></li>
+        <li><a href="#">How to Stay Motivated as a Developer</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
